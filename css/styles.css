@@ -1,0 +1,32 @@
+:root {
+    --accent-color: #2196F3;
+    --background-color: #FFFFFF;
+    --background-hf-color: #2F303A;
+    --primery-text-color: #757575;
+    --tittel-text-color: #212121;
+    --bacground-comand-color: #F5F4FA;
+    --primary-font: 'Roboto', sans-serif;
+    --primary-font-size: 14px;
+}
+/*Стили для index.HTML*/
+.body { font-family: var(--primary-font);
+    color: var(--primery-text-color);
+    font-size: var(--primary-font-size);
+}
+/*Хедер*/
+.header
+.site-nav.link.curent {color: #2196F3;}
+.header-contact
+
+/*Герой*/
+.hero
+
+/*Наши преймущества*/
+
+/*Чем мы занимаемся*/
+
+/*Нша команда*/
+
+/*Футер/
+
+/*Стили для portfolio.HTML*/
