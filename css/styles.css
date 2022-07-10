@@ -9,24 +9,215 @@
     --primary-font-size: 14px;
 }
 /*Стили для index.HTML*/
+ul {list-style: none;
+}
+
+a {text-decoration: none;
+}
+
+
+* {  margin: 0;
+     padding: 0;
+ }
+ 
 .body { font-family: var(--primary-font);
     color: var(--primery-text-color);
     font-size: var(--primary-font-size);
 }
 /*Хедер*/
-.header
-.site-nav.link.curent {color: #2196F3;}
-.header-contact
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000;}
+
+.web-header { color: var(--accent-color);}
+
+.header {background:var(--background-color);
+    display: flex;
+    width: 1600px;
+    height: 80px;
+}
+.site-nav.nav-links.curent {color: #2196F3;}
+
+.nav { 
+    width: 294px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    display: flex;}
+   
+.site-nav {}
+
+.nav-links:hover,
+.nav-links:focus,
+.nav-links:active {
+    color: var(--accent-color);
+}
+
+.nav-links {
+color: var(--tittel-text-color);
+}
+
+.headeder-contact-link {
+        color: var(--primery-text-color);;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.headeder-contact-link:hover,
+.headeder-contact-link:focus {
+    color: var(--accent-color)}
 
 /*Герой*/
-.hero
+.hero {
+    background-color: var(--background-hf-color);
+    width: 1600px;
+    height: 600px;
+    color: var(--background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    } 
+    
+.btn { 
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        color: var(--background-color);
+        background-color: var(--accent-color);
+        position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+}
+.btn:hover {background-color: #188CE8;}
 
 /*Наши преймущества*/
 
+.priority {background-color: var(--background-color);
+}
+
+.priority-titel-main { display: none;}
+
+.priority-list {display: flex;}
+
+.priority-titel {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--tittel-text-color);
+}
+
+.priority-text {font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    }
+
 /*Чем мы занимаемся*/
+.work-with {}
+
+.work-with-titel {
+    color: var(--tittel-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.work-with-list {
+    display: flex;
+}
+
+.work-with-img {}
 
 /*Нша команда*/
 
-/*Футер/
+.team {
+    background-color: var(--bacground-comand-color);
+    width: 1600px;
+    height: 648px;}
+
+.team-titel {
+        color: var(--tittel-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.team-list {
+    display: flex;
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;}
+
+.team-list-person {
+    background-color: var(--background-color);
+
+}
+
+.team-name {
+    color: var(--tittel-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19; 
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.team-place {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+/*Футер*/
+
+.footer { background-color: var(--background-hf-color);
+    width: 1600px;
+    height: 252px;}
+
+.logo-footer {font-family: 'Raleway';
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;}
+
+.web-footer { color: #2196F3;}
+
+.adress-footer {}
+
+.street {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;}
+
+.contact-footer {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;}
+
 
 /*Стили для portfolio.HTML*/
