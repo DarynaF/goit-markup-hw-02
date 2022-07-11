@@ -271,6 +271,8 @@ color: var(--tittel-text-color);
     color:var(--tittel-text-color);}
 
 .portfolio-text {
+    font-family: var(--primary-font);
+    color: var(--primery-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
