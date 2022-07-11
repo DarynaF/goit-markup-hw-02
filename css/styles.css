@@ -42,7 +42,7 @@ a {text-decoration: none;
     width: 1600px;
     height: 80px;
 }
-.site-nav.nav-links.current  {color: #2196F3;}
+.nav-links.current  {color: #2196F3;}
 
 .nav { 
     width: 294px;
