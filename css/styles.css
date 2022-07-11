@@ -42,7 +42,7 @@ a {text-decoration: none;
     width: 1600px;
     height: 80px;
 }
-.nav.site-nav:current {color: #2196F3;}
+.site-nav.nav-links.current  {color: #2196F3;}
 
 .nav { 
     width: 294px;
@@ -90,6 +90,7 @@ color: var(--tittel-text-color);
     } 
     
 .btn { 
+        font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
@@ -100,8 +101,11 @@ color: var(--tittel-text-color);
         height: 50px;
         left: 700px;
         top: 430px;
+        border-radius: 4px;
+        border-width: 0;
 }
-.btn:hover {background-color: #188CE8;}
+.btn:hover,
+.btn:focus {background-color: #188CE8;}
 
 /*Наши преймущества*/
 
@@ -221,3 +225,54 @@ color: var(--tittel-text-color);
 
 
 /*Стили для portfolio.HTML*/
+
+
+.portfolio-section {
+    
+}
+
+.portfolio-list-btn {
+    display: flex;
+    background-color: var(--background-color);
+    margin-bottom: 34px;
+   }
+
+.portfolio-nav-btn {
+        font-family: inherit;
+        color: var(--tittel-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        background-color: var(--bacground-comand-color);
+        border-radius:4px;
+        border: var(--bacground-comand-color);
+        margin-left: 8px;
+}
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus { 
+        background-color: var(--accent-color);
+        color: #FFFFFF;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+     }
+
+.portfolio-projects {
+    background-color: var(--background-color);
+}
+
+.portfolio-project-img {}
+
+.portfolio-titel {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--tittel-text-color);}
+
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    }
