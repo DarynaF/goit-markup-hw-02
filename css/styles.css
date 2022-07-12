@@ -60,8 +60,7 @@ body { font-family: var(--primary-font);
 }
 .nav-links.current  {color: var(--accent-color);}
 
-.nav { 
-   }
+.nav { }
    
 .site-nav {}
 
