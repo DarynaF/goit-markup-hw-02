@@ -60,7 +60,7 @@ body { font-family: var(--primary-font);
 }
 .nav-links.current  {color: var(--accent-color);}
 
-.nav { }
+.nav {}
    
 .site-nav {}
 
@@ -90,11 +90,16 @@ font-family: var(--primary-font);
 
 .headeder-contact-link:hover,
 .headeder-contact-link:focus {
-    color: var(--accent-color)}
+    color: var(--accent-color)
+}
 
 /*Герой*/
 .hero {
     background-color: var(--background-hf-color);
+}
+
+h1 {
+    text-transform: uppercase;
     color: var(--background-color);
     font-weight: 900;
     font-size: 44px;
@@ -126,6 +131,7 @@ font-family: var(--primary-font);
 .priority-list {}
 
 .priority-titel {
+        text-transform: uppercase;
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -240,12 +246,11 @@ font-family: var(--primary-font);
 }
 
 .portfolio-list-btn {
-    display: flex;
     background-color: var(--background-color);
-    margin-bottom: 34px;
    }
 
 .portfolio-nav-btn {
+        font-family: var(--primary-font);
         color: var(--tittel-text-color);
         font-weight: 500;
         font-size: 16px;
@@ -254,8 +259,7 @@ font-family: var(--primary-font);
         cursor: pointer;
         background-color: var(--bacground-comand-color);
         border-radius:4px;
-        border: var(--bacground-comand-color);
-        margin-left: 8px;
+        border: none;
 }
 .portfolio-nav-btn:hover,
 .portfolio-nav-btn:focus { 
@@ -278,7 +282,6 @@ font-family: var(--primary-font);
     color:var(--tittel-text-color);}
 
 .portfolio-text {
-    font-family: var(--primary-font);
     color: var(--primery-text-color);
     font-weight: 400;
     font-size: 16px;
